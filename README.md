@@ -7,6 +7,7 @@ A pixel-perfect Android implementation of a **health & wellness "Insights" dashb
 ## Table of Contents
 
 - [Screenshots](#screenshots)
+- [Demo Recording](#demo-recording)
 - [Tech Stack](#tech-stack)
 - [Architecture Overview](#architecture-overview)
 - [Project Structure](#project-structure)
@@ -28,7 +29,29 @@ A pixel-perfect Android implementation of a **health & wellness "Insights" dashb
 
 ## Screenshots
 
-Reference design files are located in the [`Design/`](Design/) folder (1.png through 5.png).
+<p align="center">
+  <img src="Screenshots/1.png" alt="Stability Summary & Header" width="270" />
+  &nbsp;&nbsp;
+  <img src="Screenshots/2.png" alt="Cycle Trends & Body Metabolic" width="270" />
+  &nbsp;&nbsp;
+  <img src="Screenshots/3.png" alt="Body Signals & Lifestyle Impact" width="270" />
+</p>
+
+| Screenshot | Sections Shown |
+| ---------- | -------------- |
+| **1.png** | Header, Stability Summary (score + dual-band chart) |
+| **2.png** | Cycle Trends (stacked bars), Body & Metabolic Trends (weight line chart) |
+| **3.png** | Body Signals (donut chart + bubbles), Lifestyle Impact (heatmap), Bottom Nav Bar |
+
+---
+
+## Demo Recording
+
+▶️ **Full app walkthrough**: [`Recording/Assignment_recording.mp4`](Recording/Assignment_recording.mp4)
+
+https://github.com/user-attachments/assets/Assignment_recording.mp4
+
+> *If the video doesn't auto-play above, download it from the [`Recording/`](Recording/) folder.*
 
 ---
 
