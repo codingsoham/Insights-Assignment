@@ -1,0 +1,86 @@
+# ──────────────────────────────────────────────
+#  Gradle
+# ──────────────────────────────────────────────
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ──────────────────────────────────────────────
+#  Android Studio / IntelliJ IDEA
+# ──────────────────────────────────────────────
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/deviceManager.xml
+.idea/copilot.data.migration.ask2agent.xml
+.idea/.name
+captures/
+
+# ──────────────────────────────────────────────
+#  Local configuration (machine-specific)
+# ──────────────────────────────────────────────
+local.properties
+*.jks
+*.keystore
+!debug.keystore
+
+# ──────────────────────────────────────────────
+#  Kotlin
+# ──────────────────────────────────────────────
+.kotlin/
+
+# ──────────────────────────────────────────────
+#  Codex / Gradle Home cache
+# ──────────────────────────────────────────────
+.codex-gradle-home/
+
+# ──────────────────────────────────────────────
+#  Native build artifacts
+# ──────────────────────────────────────────────
+.externalNativeBuild/
+.cxx/
+
+# ──────────────────────────────────────────────
+#  Generated APK / AAB / Mapping files
+# ──────────────────────────────────────────────
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Proguard / R8 mapping
+*.map
+proguard/
+
+# ──────────────────────────────────────────────
+#  OS-generated junk
+# ──────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ──────────────────────────────────────────────
+#  Temporary debug screenshots (project root)
+# ──────────────────────────────────────────────
+current_stability_tmp*.png
+
+# ──────────────────────────────────────────────
+#  Log & crash files
+# ──────────────────────────────────────────────
+*.log
+*.hprof
