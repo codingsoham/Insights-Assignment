@@ -41,7 +41,7 @@ fun StabilitySummarySection() {
         Spacer(Modifier.height(4.dp))
         Text("78%", fontSize = 32.sp, fontFamily = DMSansFontFamily,
             fontWeight = FontWeight.Bold, color = TextPrimary, lineHeight = 18.sp)
-        Spacer(Modifier.height(18.dp))
+        Spacer(Modifier.height(5.dp))
         StabilityChart()
     }
 }

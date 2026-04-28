@@ -48,13 +48,16 @@ fun InsightsScreen() {
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .statusBarsPadding()
                 .hazeSource(state = hazeState)
                 .verticalScroll(scrollState)
         ) {
             FigmaBackgroundGlow()
 
-            Column(modifier = Modifier.fillMaxWidth()) {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .statusBarsPadding()
+            ) {
                 InsightsHeader()
                 Spacer(modifier = Modifier.height(12.dp))
                 StabilitySummarySection()

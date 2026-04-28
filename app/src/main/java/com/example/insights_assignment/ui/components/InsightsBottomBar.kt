@@ -120,7 +120,7 @@ fun InsightsBottomBar(
                             item.label,
                             fontSize = 11.sp,
                             fontFamily = DMSansFontFamily,
-                            fontWeight = FontWeight.Medium,
+                            fontWeight = FontWeight.Normal,
                             color = tint
                         )
                     }
