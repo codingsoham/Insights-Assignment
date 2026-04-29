@@ -37,11 +37,6 @@ local.properties
 .kotlin/
 
 # ──────────────────────────────────────────────
-#  Codex / Gradle Home cache
-# ──────────────────────────────────────────────
-.codex-gradle-home/
-
-# ──────────────────────────────────────────────
 #  Native build artifacts
 # ──────────────────────────────────────────────
 .externalNativeBuild/
